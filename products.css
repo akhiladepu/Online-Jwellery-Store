@@ -1,0 +1,42 @@
+#main ,#cartDiv{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-gap:1%;
+    text-align: center;
+}
+
+#main img, #cartDiv img{
+    width:100%;
+    height:400px;
+}
+
+/* #inputButtons button{
+    float:left;
+} */
+/* #inputButtons > div{
+    float:left;
+    padding:20px;
+    margin:30px
+}
+
+.clear{
+    clear:both;
+} */
+
+#cartButton{
+    float:right;
+}
+
+#cartPrice{
+    width:100px;
+    height:100px;
+    float:right;
+    text-align: center;
+}
+
+#container{
+    width:600px;
+    margin:auto;
+    text-align: center;
+}

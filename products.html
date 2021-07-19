@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <div id ="inputButtons"></div>
+        <div>
+            <button onclick="sortPriceLH()">Price Low to High</button>
+        </div>
+        <div class="clear"></div>
+        <div>
+            <button onclick="sortPriceHL()">Price High to Low</button>
+        </div><div class="clear"></div>
+        <div>
+            <input type="text" placeholder="LeastPrice" id="LeastPrice"/><div class="clear"></div>
+            <input type="text" placeholder="HighestPrice" id="HighestPrice"/><div class="clear"></div>
+            <button onclick="priceRange()" id="btn1">Price Range</button>
+        </div><div class="clear"></div>
+        <div>
+            <button onclick="earrings()">Earrings</button>
+        </div><div class="clear"></div>
+        <div> 
+            <button onclick="pendants()">Pendants</button>
+        </div><div class="clear"></div>
+        <div>
+            <button onclick="rings()">Rings</button>
+        </div><div class="clear"></div>
+        <div>
+            <input type="text" id="brandName"/><div class="clear"></div>
+            <button onclick="brand()">Check Brand</button>
+        </div><div class="clear"></div>
+    </div>
+    <div class="clear"></div><button onclick="window.location.href='cart.html'" id='cartButton'">Cart</button>
+    <div id = "main"></div>
+    
+</body>
+</html>
+<script type="text/javascript" src="products.js"></script>
